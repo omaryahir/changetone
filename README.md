@@ -1,4 +1,4 @@
-# changetone
+# changetone.py
 
 In this project you can send a txt file with the tones for example:
 
@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet
 
 Execute the command in this way:
 ```
-python changetone.py myfile.txt
+$ python changetone.py myfile.txt
  Main tone: Do
  Target tone: Sol 
 ```
