@@ -8,16 +8,15 @@ _myfile.txt_
 Lorem ipsum dolor sit amet
 ``` 
 
-### Execute the command in this way:
+## Execute the command in this way:
 ```
 $ python changetone.py myfile.txt > output.txt
- Main tone: Do
- Target tone: Sol 
+ Main tone: C
+ Target tone: G 
 ```
+Note: You can also use Do or Sol
 
-Output:
-
-_output.txt_
+_Output:_
 ```
 ------
 diff tones: 8
@@ -27,10 +26,10 @@ Lorem ipsum dolor sit amet
 ``` 
 
 
-### Especial features
+## Especial features
 $ python changetone.py myfile.txt esp
 
-Output:
+_Output:_
 ```
 ------
 diff tones: 8
@@ -41,7 +40,7 @@ Lorem ipsum dolor sit amet
 
 $ python changetone.py myfile.txt nobrackets
 
-Output:
+_Output:_
 ```
 ------
 diff tones: 8
@@ -51,5 +50,5 @@ Lorem ipsum dolor sit amet
 ``` 
 
 
-### Requirements:
+## Requirements:
 Python 3.8 
